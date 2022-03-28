@@ -68,7 +68,7 @@
 
         <controls:PageHeader x:Name="pageHeader" RelativePanel.AlignLeftWithPanel="True"
 			RelativePanel.AlignRightWithPanel="True"
-			RelativePanel.AlignTopWithPanel="True" Text="Manage Personal">
+			RelativePanel.AlignTopWithPanel="True" Text="Manage Personal Information">
 
             <!--  secondary commands  -->
 
@@ -81,8 +81,8 @@
 
             <!--  secondary commands  -->
             <controls:PageHeader.PrimaryCommands>
-                <AppBarButton Icon="Add" Label="Add Personal" Click="AddData" />
-                <AppBarButton Icon="Delete" Label="Delete Personal" Click="DeleteAccout_Click" />
+                <AppBarButton Icon="Add" Label="Add Personal Information" Click="AddData" />
+                <AppBarButton Icon="Delete" Label="Delete Personal Information" Click="DeleteAccout_Click" />
             
             </controls:PageHeader.PrimaryCommands>
 
@@ -93,7 +93,7 @@
             <Pivot>
                 <RelativePanel.Below>pageHeader</RelativePanel.Below>
                 <RelativePanel.Above>pageFooter</RelativePanel.Above>
-                <PivotItem Header="PersonalInfo">
+                <PivotItem Header="Personal Information">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="350"/>
@@ -104,10 +104,10 @@
                                 Orientation="Vertical" Margin="10,0,10,0">
                             <TextBox x:Name="txtFName" PlaceholderText="James" Header="First Name"/>
                             <TextBox x:Name="txtLastName" PlaceholderText="Karan" TextWrapping="Wrap" Header="Last Name"/>
-                        <TextBox x:Name="txtDOB" PlaceholderText="24/09/2008" TextWrapping="Wrap" Header="DOB"/>
+                        <TextBox x:Name="txtDOB" PlaceholderText="24/09/2008" TextWrapping="Wrap" Header="Date of Birth"/>
                         <TextBox x:Name="txtGender" PlaceholderText="F/M" TextWrapping="Wrap" Header="Gender"/>
                         <TextBox x:Name="txtEmail" PlaceholderText="Karan@Students.edu.au" TextWrapping="Wrap" Header="Email"/>
-                        <TextBox x:Name="txtMobileNo" PlaceholderText="09098765" TextWrapping="Wrap" Header="Mobile No"/>
+                        <TextBox x:Name="txtMobileNo" PlaceholderText="09098765" TextWrapping="Wrap" Header="Mobile Number"/>
                         
                     </StackPanel>
                         <ListView x:Name="PersonalListView" Grid.Row="1" HorizontalAlignment="Stretch"
