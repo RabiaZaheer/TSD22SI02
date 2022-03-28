@@ -98,7 +98,7 @@
                                 HorizontalAlignment="Stretch"
                                 Orientation="Vertical" Margin="10,0,10,0">
                         <TextBox x:Name="txtFName" PlaceholderText="James" Header="First Name"/>
-                        <TextBox x:Name="txtLastName" PlaceholderText="Karan" TextWrapping="Wrap" Header="Last Name"/>
+                        <TextBox x:Name="txtLastName" PlaceholderText="Karen" TextWrapping="Wrap" Header="Last Name"/>
                         <TextBox x:Name="txtCompany" PlaceholderText="ABC Private ltd" TextWrapping="Wrap" Header="Company Name"/>
                         <TextBox x:Name="txtMobileNo" PlaceholderText="09098765" TextWrapping="Wrap" Header="Mobile No"/>
                     </StackPanel>
