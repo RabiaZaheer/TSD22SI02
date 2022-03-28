@@ -67,8 +67,7 @@
 			RelativePanel.AlignTopWithPanel="True" Text="Manage Contact">
 
             <!--  secondary commands  -->
-
-
+          
         </controls:PageHeader>
 
         <controls:PageHeader x:Name="pageFooter" RelativePanel.AlignLeftWithPanel="True"
@@ -88,7 +87,7 @@
         <Pivot>
             <RelativePanel.Below>pageHeader</RelativePanel.Below>
             <RelativePanel.Above>pageFooter</RelativePanel.Above>
-            <PivotItem Header="Contact">
+            <PivotItem Header="Contact Information">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="350"/>
