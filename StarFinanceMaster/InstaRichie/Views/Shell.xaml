@@ -120,6 +120,30 @@
                                Text="Contact Information" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
+            <!--  Appointment Info button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:AppointmentPage" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Bullets" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Appointment Information" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+            <!--  Shopping Info button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ShoppingPage" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Bullets" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Shopping Information" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+
+
         </Controls:HamburgerMenu.PrimaryButtons>
 
         <Controls:HamburgerMenu.SecondaryButtons>
